@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio — Vitor Moraes
 
-## Getting Started
+Site portfólio profissional e corporativo para prospecção B2B.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router, Turbopack)
+- **TypeScript**
+- **Tailwind CSS v4** — design system coral-pêssego customizado
+- **Framer Motion** — animações profissionais
+- **next-intl** — infraestrutura i18n (PT/EN/ES)
+
+## Executar
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estrutura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── [locale]/layout.tsx    # Layout com i18n provider
+│   ├── [locale]/page.tsx      # Página principal
+│   ├── layout.tsx             # Root layout
+│   └── globals.css            # Design system + paleta coral
+├── components/
+│   ├── Header.tsx             # Navbar com logo e seletor de idioma
+│   ├── Hero.tsx               # Seção hero com CTAs
+│   ├── Projects.tsx           # Lista de projetos
+│   ├── ProjectCard.tsx        # Card de projeto
+│   ├── About.tsx              # Sobre + contatos
+│   └── Footer.tsx             # Rodapé
+├── i18n/
+│   ├── routing.ts             # Configuração de rotas
+│   ├── request.ts             # Carregamento de mensagens
+│   └── navigation.ts          # Navegação locale-aware
+└── messages/
+    ├── pt.json                # Português
+    ├── en.json                # English
+    └── es.json                # Español
+```
 
-## Learn More
+## Paleta de Cores
 
-To learn more about Next.js, take a look at the following resources:
+Baseada no gradiente coral-pêssego da logomarca.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Token | Hex | Uso |
+|---|---|---|
+| coral-500 | #E8845E | Cor principal |
+| coral-400 | #F09A72 | Gradientes e tags |
+| coral-600 | #D4654A | Hover e ênfase |
+| neutral-900 | #1A1A2E | Texto heading |
+| neutral-50 | #FAFAFA | Fundo geral |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Projetos
 
-## Deploy on Vercel
+- **Telma Online** — Jogo de cartas multiplayer real-time
+- **Fluxo** — SaaS de gestão comercial integrada
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Todos os direitos reservados. © 2026 Vitor Moraes.

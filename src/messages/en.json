@@ -1,0 +1,49 @@
+{
+  "Header": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Hello, I'm",
+    "name": "Vitor Moraes",
+    "role": "Full-Stack Developer",
+    "headline": "Digital solutions that drive your business growth.",
+    "description": "I design and develop custom web systems for businesses and retailers seeking operational efficiency, a professional digital presence, and measurable results.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Get in Touch"
+  },
+  "Projects": {
+    "title": "Projects",
+    "subtitle": "Each project is a tailored solution, developed with a focus on solving real business challenges and generating tangible value for the client.",
+    "viewProject": "View Project",
+    "items": {
+      "telma": {
+        "title": "Telma Online",
+        "category": "Full-Stack Web Application · Real-Time",
+        "description": "A real-time multiplayer platform that digitizes the classic Brazilian card game Telma. The solution uses WebSockets for instant communication between players, featuring a room system, dynamic rounds, and dispute mechanics — delivering a fluid and engaging experience that connects users from any location.",
+        "tags": ["WebSockets", "Real-Time", "Multiplayer", "JavaScript", "Node.js", "UI/UX"]
+      },
+      "fluxo": {
+        "title": "Fluxo",
+        "category": "SaaS · Intelligent Business Management",
+        "description": "An integrated management system for local businesses that automates inventory control, sales, CRM, and financial reconciliation on a single platform. The intelligent dashboard provides proactive restocking alerts, real-time revenue metrics, and customer re-engagement tools — reducing hours of manual work and optimizing decision-making.",
+        "tags": ["React", "TypeScript", "Dashboard", "REST API", "Management", "Analytics"]
+      }
+    }
+  },
+  "About": {
+    "title": "About",
+    "description": "Full-Stack Developer with expertise in creating complete digital solutions — from database to user interface. My focus is transforming business needs into efficient, scalable systems with flawless user experience. Every project is driven by a results-oriented mindset, ensuring deliverables that generate real impact.",
+    "contactTitle": "Let's Talk",
+    "contactDescription": "Ready to take your business to the next level? Get in touch to discuss how I can help.",
+    "email": "Email",
+    "phone": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Designed and developed by"
+  }
+}

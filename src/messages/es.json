@@ -1,0 +1,50 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Acerca",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "greeting": "Hola, soy",
+    "name": "Vitor Moraes",
+    "role": "Desarrollador Full-Stack",
+    "headline": "Soluciones digitales que impulsan el crecimiento de su negocio.",
+    "description": "Diseño y desarrollo de sistemas web a medida para empresas y comercios que buscan eficiencia operativa, presencia digital profesional y resultados medibles.",
+    "cta_projects": "Ver Proyectos",
+    "cta_contact": "Contácteme"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "subtitle": "Cada proyecto es una solución personalizada, desarrollada con enfoque en resolver desafíos reales de negocio y generar valor tangible para el cliente.",
+    "viewProject": "Ver Proyecto",
+    "items": {
+      "telma": {
+        "title": "Telma Online",
+        "category": "Aplicación Web Full-Stack · Tiempo Real",
+        "description": "Plataforma multijugador en tiempo real que digitaliza el clásico juego de cartas brasileño Telma. La solución utiliza WebSockets para comunicación instantánea entre jugadores, con sistema de salas, rondas dinámicas y mecánicas de contienda — entregando una experiencia fluida y envolvente que conecta usuarios de cualquier ubicación.",
+        "tags": ["WebSockets", "Tiempo Real", "Multijugador", "JavaScript", "Node.js", "UI/UX"]
+      },
+      "fluxo": {
+        "title": "Fluxo",
+        "category": "SaaS · Gestión Comercial Inteligente",
+        "description": "Sistema de gestión integrado para comercios locales que automatiza el control de inventario, ventas, CRM y conciliación financiera en una única plataforma. El dashboard inteligente proporciona alertas proactivas de reposición, métricas de facturación en tiempo real y herramientas de reactivación de clientes — reduciendo horas de trabajo manual y optimizando la toma de decisiones.",
+        "tags": ["React", "TypeScript", "Dashboard", "API REST", "Gestión", "Analytics"]
+      }
+    }
+  },
+  "About": {
+    "title": "Acerca",
+    "description": "Desarrollador Full-Stack con experiencia en crear soluciones digitales completas — desde la base de datos hasta la interfaz de usuario. Mi enfoque es transformar necesidades de negocio en sistemas eficientes, escalables y con experiencia de uso impecable. Cada proyecto es conducido con mentalidad orientada a resultados, garantizando entregas que generan impacto real.",
+    "contactTitle": "Hablemos",
+    "contactDescription": "¿Listo para llevar su negocio al siguiente nivel? Contácteme para discutir cómo puedo ayudar.",
+    "email": "Email",
+    "phone": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "Footer": {
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Diseñado y desarrollado por"
+  },
+  "i18nNotice": "El cambio de idioma no está disponible temporalmente."
+}
