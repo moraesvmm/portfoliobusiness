@@ -13,7 +13,7 @@ const projectData = [
   {
     key: "fluxo" as const,
     url: "https://fluxo-erp-oficial.netlify.app/",
-    images: ["/images/fluxo-mockup.png"],
+    images: ["/images/fluxo-mockup.svg"],
   },
 ];
 

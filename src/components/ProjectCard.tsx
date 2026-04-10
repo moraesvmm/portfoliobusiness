@@ -55,6 +55,8 @@ export default function ProjectCard({
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
+                quality={85}
               />
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -77,6 +79,8 @@ export default function ProjectCard({
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 40vw, 20vw"
+                  loading="lazy"
+                  quality={85}
                 />
               </motion.div>
             )}

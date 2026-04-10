@@ -7,6 +7,8 @@ import "../globals.css";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+  preload: true,
 });
 
 type Props = {
@@ -34,10 +36,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: titles[locale] || titles.pt,
     description: descriptions[locale] || descriptions.pt,
+    viewport: {
+      width: 'device-width',
+      initialScale: 1,
+      maximumScale: 5,
+    },
+    themeColor: [
+      { media: '(prefers-color-scheme: light)', color: '#FAFAFA' },
+      { media: '(prefers-color-scheme: dark)', color: '#1A1A2E' },
+    ],
     openGraph: {
       title: titles[locale] || titles.pt,
       description: descriptions[locale] || descriptions.pt,
       type: "website",
+    },
+    other: {
+      'X-DNS-Prefetch-Control': 'on',
     },
   };
 }
