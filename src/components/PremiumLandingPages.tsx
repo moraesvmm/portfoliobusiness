@@ -127,18 +127,11 @@ export default function PremiumLandingPages() {
                 <div className="relative group overflow-hidden rounded-2xl aspect-video lg:aspect-[4/3] bg-neutral-800 border border-neutral-700 shadow-2xl flex items-center justify-center">
                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 to-transparent z-10 pointer-events-none" />
                   
-                  {/* Se tiver a imagem altere a div de fallback abaixo para uma tag <img /> */}
-                  <div className="absolute inset-0 opacity-10"
-                    style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '24px 24px' }}>
-                  </div>
-                  
-                  {/* Placeholder do Mockup */}
-                  <div className="transition-transform duration-700 group-hover:scale-105 flex flex-col items-center justify-center text-center p-6 relative z-20">
-                    <span className="text-4xl sm:text-6xl mb-4 font-black text-white opacity-20">
-                      {activeProject.title.split(' ')[0]}
-                    </span>
-                    <p className="text-neutral-400 text-sm tracking-widest uppercase">Placeholder do Mockup</p>
-                  </div>
+                  <img 
+                    src={activeProject.image} 
+                    alt={activeProject.title}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
                 </div>
 
                 {/* 5. Estrutura Card Info */}

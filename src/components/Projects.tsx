@@ -12,8 +12,8 @@ const projectData = [
   },
   {
     key: "fluxo" as const,
-    url: "https://fluxo-two-kappa.vercel.app/",
-    images: ["/images/fluxo-1.png", "/images/fluxo-2.png"],
+    url: "https://fluxo-erp-oficial.netlify.app/",
+    images: ["/images/fluxo-mockup.png"],
   },
 ];
 
