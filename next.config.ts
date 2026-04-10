@@ -16,9 +16,6 @@ const nextConfig: NextConfig = {
   // Compression
   compress: true,
 
-  // Production optimizations
-  swcMinify: true,
-
   // Bundle optimization
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion'],
